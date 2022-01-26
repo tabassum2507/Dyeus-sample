@@ -1,0 +1,11 @@
+.box {
+  padding: 0 5rem;
+}
+
+.box__img {
+  display: block;
+  height: 400px;
+  width: 311px;
+  background-color: blue;
+}
+/*# sourceMappingURL=Main.css.map */
