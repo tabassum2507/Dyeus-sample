@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faShoppingCart, faStarHalf, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faStar, faShoppingCart, faStarHalf, faChevronRight, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 function Main() {
   return <div className='box'>
@@ -33,28 +33,34 @@ function Main() {
 
         <h3>1 Months Pack (4 tubes)</h3>
 
-        <div className='line1'>
+        <div className='box__pack1__saving'>
           <span class>Savings: ₹200</span>
         <h4>₹595</h4></div>
 
         <div className="line2">
-          <span className='line2_green'>38% Saved</span>
-          <span class="line2_yellow">Best Results</span>
-          <span className='line2_num'>₹795</span>
+          <span>38% Saved</span>
+          <p>Best Results</p>
+          <h4>₹795</h4>
         </div>
       </div>
   
-
-    <div className="box__pack__2 ">
+    
+    <div className="box__pack2">
 
       <h3>3 Months Pack (12 tubes)</h3>
 
       <div className="line1"><span>Savings: ₹100</span>
-      <h3>₹899</h3></div>
+      <h3>₹899</h3>
+      </div>
 
-      <div className="line2"><span>12% Saved</span>
-      <h3>₹999</h3></div>
+      <div 
+      className="line2"><p>12% Saved</p>
+      <h3>₹999</h3>
+      </div>
+
     </div>
+
+    
 
     <div className='box__button box__button--box'><span>
       <FontAwesomeIcon icon={faShoppingCart} />ADD TO CART</span>
