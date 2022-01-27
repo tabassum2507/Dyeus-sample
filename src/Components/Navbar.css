@@ -22,7 +22,7 @@
           justify-content: space-between;
 }
 
-.navbar__item {
+.navbar__list li {
   margin: 0;
   padding-bottom: 30px;
   color: #fff;
