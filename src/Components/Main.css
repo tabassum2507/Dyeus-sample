@@ -1,11 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belgrano&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 .box {
-  padding: 0 5rem;
+  padding: 25px 40px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .box__img {
   display: block;
+  position: absolute;
   height: 400px;
-  width: 311px;
+  width: 300px;
+  left: 40px;
+  top: 130px;
   background-color: blue;
+}
+
+.box__heading {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43.58px;
+  position: absolute;
+  width: 313px;
+  height: 120px;
+  left: 40px;
+  top: 600px;
+}
+
+.box__detail {
+  font-family: 'Belgrano', serif;
+  font-weight: 400;
+  font-size: 14px;
+  position: absolute;
+  width: 310px;
+  height: 70px;
+  top: 710px;
+  left: 40px;
+  color: #C4CACF;
+}
+
+.box .section {
+  position: absolute;
+  top: 790px;
+  left: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .section__rating {
+  background: #079741;
+  border-radius: 9px;
+  padding: 1px;
+  margin-top: 0;
+}
+
+.box .section__rating .star {
+  height: 12px;
+}
+
+.box .section h3 {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.box .section p {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #424648;
+  padding: 4px;
+}
+
+.box__money {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 840px;
+}
+
+.box__money h1 {
+  padding: 6px;
+}
+
+.box__money__h1 {
+  color: #3C464F;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  font-weight: 500;
+}
+
+.box__pack1 {
+  position: absolute;
+  height: 124px;
+  width: 270px;
+  background: #21272C;
+  border-radius: 5px;
+  top: 900px;
+  left: 40px;
+}
+
+.box__pack1__popular {
+  margin: 20px;
+  padding: 4px;
+  margin-top: 10px;
+  background: #067BD8;
+  height: 5px;
+  border-radius: 10px;
+  font-size: 7px;
+}
+
+.box__button {
+  display: block;
+  background-color: #13324A;
+  position: absolute;
+  height: 50px;
+  width: 320px;
+  top: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 20px;
+}
+
+.box__button span {
+  position: absolute;
+  left: 110px;
+  font-size: 13px;
 }
 /*# sourceMappingURL=Main.css.map */
